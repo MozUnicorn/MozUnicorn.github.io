@@ -3,8 +3,8 @@
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  height: 540px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -13,12 +13,12 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 540px;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 540px;
 }
