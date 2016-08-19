@@ -1,25 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Moz Unicorn</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="UTF-8">
+  <title>MozUnicorn</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="https://use.fontawesome.com/bf0cb5a408.js"></script>
+
 </head>
 <body>
-	<header>
-		<h2>Unicorn Club</h2>
-	</header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MozUnicorn</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a></li><!-- Facebook -->
+            <li><a href="#"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></li><!-- Twitter -->
+            <li><a href="#"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li><!-- Github -->
+						<li><a href="#"><i class="fa fa-2x fa-slack" aria-hidden="true"></i></a></li><!-- Slack -->
+						<li><a href="#"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li><!-- Gmail -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-		<div class="nav-container">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Event</a></li>
-				<li><a href="#">Volunteer</a></li>
-				<li><a href="#">Mentors</a></li>
-			</ul>
-		</div>
-		<footer>
-			Footer
-		</footer>
 
+		<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/12549011_1234357693246650_6749268242761687334_n.jpg" alt="First slide">
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/9593625850_3f17e87199_c.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/IMAG2711.jpg" alt="Third slide">
+        </div>
+				<div class="item">
+          <img class="fourth-slide" src="img/DSCN6382.JPG" alt="Fourth slide">
+        </div>
+				<div class="item">
+          <img class="fifth-slide" src="img/img_0086.jpg" alt="Fifth slide">
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
